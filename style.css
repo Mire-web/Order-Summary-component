@@ -15,16 +15,12 @@
 
 body {
   position: relative;
-  background-color: hsl(225, 100%, 94%);
+  background: hsl(225, 100%, 94%) url('./pattern-background-desktop.svg') no-repeat;
   font-family: "Red Hat Display", "Gill Sans", "Gill Sans MT", Calibri,
     "Trebuchet MS", sans-serif;
 }
 
-#background {
-  max-width: 100vw;
-}
-
-#main {
+main {
   position: absolute;
   background-color: white;
   border-radius: 10px;
@@ -133,7 +129,7 @@ h1 {
 
 .attribution {
   position: absolute;
-  top: 650px;
+  top: 500px;
   left: 50%;
   transform: translate(-50%, 0);
   font-size: 11px;
@@ -151,12 +147,11 @@ h1 {
     margin-left: 30px;
     margin-right: 30px;
   }
-  #background{
-    height: 25vh;
-  }
-  #main{
-    top: 60%;
-    height: 70vh;
+  main{
+    top: 100px;
+    height: 480px;
+    width: 90vw;
+    font-size: 11px;
     border-radius: 15px;
   }
   .pay{
