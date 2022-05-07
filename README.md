@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-[Desktop View](./desktop-view.PNG)
-[Mobile View](./mobile-view.PNG)
+-[Desktop View](./desktop-view.PNG)
+-[Mobile View](./mobile-view.PNG)
 
 
 ## My process
